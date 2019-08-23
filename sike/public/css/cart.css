@@ -1,0 +1,42 @@
+section{
+  width:800px;
+  background-color:#1b1b1b;
+  padding:20px;
+}
+section>img{
+  display:block;
+  float:left;
+  width:40%;
+}
+section>div.item-cart-info{
+  float:left;
+  margin-left:20px;
+}
+div.item-cart-info h1{
+  font:24px lighter;
+  margin:5px;
+}
+div.item-cart-info p{
+  padding:5px;
+}
+img.dota-logo{
+  width:32px;
+}
+div.item-cart-info input,div.item-cart-info button{
+  display:inline-block;
+  background-color:transparent;
+  color:#913232;
+}
+input#get-count{
+  width:60px;
+  height:30px;
+  border:1px solid #913232;
+  border-radius:5px;
+}
+div.item-cart-info button.to-exchange{
+  width:300px;
+  height:50px;
+  line-height:50px;
+  background-color:#913232;
+  color:#fff;
+}

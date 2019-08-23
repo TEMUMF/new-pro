@@ -1,0 +1,112 @@
+body{
+    width:100%;
+    min-width:600px;
+    background:#ccc;
+}
+/* 媒体查询 */
+@media screen and (min-width:1640px){
+    div.page1_text>p{
+        font-size:40px;
+    }
+    div.download a p{
+        font-size:16px;
+        line-height:42px;
+    }    
+    div.download a p img{
+        height:24px;
+        margin:0 10%;
+    }
+}
+@media screen and (max-width:1639px){
+    div.page1_text>p{
+        font-size:30px;
+    }
+    div.download a p{
+        font-size:14px;
+        line-height:22px;
+    }
+    div.download a p img{
+        height:16px;
+        margin:0 10%;
+    }
+
+}
+div.detail img.back_img{
+    width:100%;
+}
+footer{
+    padding:50px 50px;
+}
+.page1,.page2,.page3,.page4{position:relative;}
+div.page1_text{
+    width:45%;
+    padding:10px;
+    text-align:center;
+    position:absolute;
+    right:5%;
+    top:5%;
+    color:#fff;
+}
+div.logo img{
+    width:10%;
+    border-radius:10%;
+    margin:10px;
+}
+div.download{
+    width:50%;
+    margin:10px auto;
+}
+div.download a{
+    display:block;
+    width:45%;
+}
+div.download a p{
+    background:#333333;
+    padding:2% 10px;
+}
+div.download a>img{
+    width:100%;
+    margin:20px 0;
+}
+div.page1_text article{ 
+    text-align:left;
+    width:50%;
+    margin:0 auto;
+}
+div.page_text div{
+    position:absolute;
+    font-size:24px;
+}
+div.page2 div,div.page4 div{
+    right:25%;
+    top:35%;
+}
+div.page3 div{
+    top:35%;
+    left:25%;
+}
+.page_text div p span{
+    font-size:2em;
+}
+footer>div{
+    width:70%;
+    margin:0 auto;
+}
+footer div.foot_text article{
+    /* font-size:smaller; */
+    color:#000;
+    width:70%;
+    font-size:2em;
+}
+footer div.foot_text div.download{
+    width:30%;
+}
+div.foot_img{display:flex;justify-content:space-between;}
+div.foot_img img{
+    width:19%;
+    border-radius:5px;
+}
+div.bg{
+    height:2px;
+    background:linear-gradient(to right, rgb(84, 19, 110) 0%, rgb(216, 191, 214) 50%, rgb(84, 19, 110) 100%);
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录-Dotamax</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <header>
+        <a href="#">
+            <img src="../image/max_logo3.png" alt="">
+        </a>
+    </header>
+    <section>
+        <div class="top-box">
+            <p class="active" data-target="phone">手机号登录</p>
+            <p class="" data-target="uname">网站账号登录</p>
+        </div>
+        <div class="information">
+            <img src="../image/max.png" alt="">
+            <p>第一游戏数据平台</p>
+            <div id="phone">
+                <input type="text" placeholder="手机号码" name="phone">
+                <p class="txt_info" data_focus="请输入正确的手机号码" data_fail="手机号码格式错误,请重新输入"></p>
+            </div>
+            <div id="uname" class="hide">
+                <input type="text" placeholder="用户名" name="uname">
+                <p class="txt_info" data_focus="请输入您的用户名" data_fail="用户名不存在"></p>
+            </div>
+            <div id="upwd"> 
+                <input type="password" placeholder="密码" name="upwd">
+                <p class="txt_info" data_focus="密码由数字\字母\下划线组成" data_fail="密码格式错误"></p>
+            </div>
+            <button>登录</button>
+            <div class="clearF">
+                <span class="fl">
+                    社交帐号登录
+                    <a href=""><img src="../image/icon/WeChat.png" class="login_icon" alt=""></a>
+                </span>
+                <span class="fr">
+                    <a href="#">忘记密码?</a> 
+                </span>
+            </div>
+        <a href="index.html" class="back fr">返回</a>
+        </div>
+    </section>
+    <footer>
+        <div class="foot_left">
+            <a href="#"> <img class="login_icon" src="../image/icon/email.png" alt=""></a>
+            <a href="#"> <img class="login_icon" src="../image/icon/IOS.png" alt=""></a>
+            <a href="#"><img class="login_icon" src="../image/icon/Android.png" alt=""></a>
+            <a href="#"> <img class="login_icon" src="../image/icon/QQ.png" alt=""></a>
+        </div>
+        <div class="foot_right">
+            <a href="#"><img class="login_icon" src="../image/icon/tencent-weibo.png" alt=""></a>
+            <a href="#"><img class="login_icon" src="../image/icon/weibo.png" alt=""></a>
+            <a href="#"><img class="login_icon" src="../image/icon/统计.png" alt=""></a>
+            <a href="#"> <img class="login_icon" src="../image/icon/heartbeat.png" alt=""></a>
+        </div>
+    </footer>
+    <script src="../js/login.js"></script>
+</body>
+</html>

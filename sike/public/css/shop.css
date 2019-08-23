@@ -1,0 +1,544 @@
+a.gradient{
+  background-image:linear-gradient(to top,#521616 ,#9b3535)!important;
+}
+body{
+  background:url(../image/shadow.jpg) no-repeat #5b5b5b;
+  background-size:cover;
+  background-attachment:fixed;
+  font-size:14px;
+}
+section{
+  min-height:700px;
+}
+p.language img{
+  height:12px;
+  border-radius:2px;
+}
+p.language img.active{
+  height:16px;
+}
+p.language{
+  margin:20px 0;
+  text-align:right;
+}
+div.container{
+  background-color:rgba(0,0,0,0.6);
+  border-radius:2px;
+  padding:10px;
+  justify-content: space-between;
+}
+aside{
+  width:30%;
+}
+aside div.uself{
+  background-color:rgba(0,0,0,0.7);
+  height:140px;
+}
+aside div.uself div.avator{
+  padding:20px;
+}
+aside div.uself div.avator img{
+  border-radius:50%;
+  display:inline-block;
+  margin-right:20px;
+  width:60px;
+  height:60px;
+}
+aside div.uself div.avator div{
+  line-height:30px;
+}
+div.avator div span{
+  line-height:20px;
+  height:20px;
+  display:inline-block;
+}
+span.diamond,span.coin{
+  background-repeat:no-repeat;
+  background-size:contain;
+  padding:0 4px 0 20px;
+  width:52px;
+}
+span.diamond{
+  background-image: url('../image/icon/mdiamond.png');
+}
+span.coin{
+  background-image:url('../image/icon/mcoin.png')
+}
+span.recharge{
+  color:#000;
+  font-weight:bolder;
+  background-color:#ccb611;
+  border-radius:3px;
+  padding:0 5px;
+}
+div.stock{
+  display:flex;
+  justify-content: space-between;
+}
+div.stock a{
+  height:40px;
+  width:49.9%;
+  line-height:40px; 
+  text-align:center;
+  opacity:0.8;
+}
+div.stock a img{
+  height:14px;
+}
+div.stock a:hover{
+  opacity:1;
+}
+input{
+  height:40px;
+  width:90%;
+  background-color:#0b0b0b;
+  border:1px solid #1b1b1b;
+  color:#5b5b5b;
+  padding:0 10px;
+}
+input.focus{
+  background-color:rgba(95, 92, 92, 0.89);
+  color:#0b0b0b;
+}
+div.search{
+  display:flex;
+  margin:10px 0;
+}
+div.search div{
+  width:40px;
+  height:40px;
+  background-color:#1b1b1b;
+  opacity:0.8;
+}
+div.search div i{
+  height:20px;
+  width:20px;
+  background: url('../image/icon/search.png');
+  background-size:contain;
+  margin:10px auto;
+  cursor:pointer;
+}
+div.search div:hover i{
+  background-image: url('../image/icon/search_1.png');
+}
+div.tag p{
+  height:40px;
+  line-height:40px;
+  background-color:#1b1b1b;
+  padding-left:20px;
+}
+div.tag p:hover{
+  color:#913232;
+}
+div.tag div{
+  background-color:#0b0b0b;
+  padding:10px;
+}
+div.tag div.list a{
+  display:inline-block;
+  padding:0 10px;
+  font-size:12px;
+  line-height:30px;
+}
+div.tag div.list a:hover{
+  background-color: #1b1b1b;
+}
+div.hero>div{
+  position:relative;
+  overflow:hidden;
+}
+div.hero>div>img{
+  z-index:0;
+  width:120%;
+  height:120%;
+  opacity:.1;
+  position:absolute;
+
+}
+div.hero>div:hover>img{
+  opacity:0.3;
+}
+div.hero>div>div{
+  padding:10px;
+  position:relative;
+  z-index:1;
+}
+div.hero>div p{
+  text-align:center;
+  margin:10px auto 20px;
+}
+div.hero-pic a{
+  display:block;
+  float:left;
+  width:20%;
+  border:1px solid #0b0b0b;
+  opacity:0.6;
+}
+div.hero-pic a img{
+  width:100%;
+  height:32px;
+}
+div.hero-pic a:hover{
+  opacity:1;
+  border:1px solid #fff;
+}
+div.text{
+  width:70%;
+  text-align: center;
+}
+div.text>div{
+  margin-left:10px;
+  padding:10px 0 10px 10px;
+  background:linear-gradient(to bottom,#0b0b0b,#1b1b1b);
+}
+div.text div.head-title p>a{
+  display:inline-block;
+  width:80px;
+  padding:10px;
+}
+div.text div.head-title p.tag b{
+  display:inline-block;
+  padding:10px 0;
+}
+div.text div.head-title p.tag b a{
+  padding:3px 10px;
+  border:1px solid #5b5b5b;
+  border-radius:20px;
+  color:#8b8b8b;
+}
+div.text div.head-title p.tag a:hover{
+  border:1px solid #C23C2A;
+  color:#C23C2A;
+}
+div.text div.head-title p a.active,div.text div.head-title p a:hover{
+  color:#C23C2A;
+}
+div.text div.head-title p a.active img{
+  display:inline-block;
+}
+div.head-title p a:not(:first-child) img{
+  height:14px;
+  display:none;
+}
+ul.items{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:normal;
+}
+ul.items li{
+  width:23.6%;
+  border:1px solid #0b0b0b;
+  text-align: center;
+  cursor:pointer;
+  margin:10px 10px 20px 0;
+}
+ul.items li img{
+  transition:.5s linear;
+  transform-origin: center;
+  width:100%;
+  transform:scale(1.1);
+}
+ul.items li img:hover{
+  transform:scale(1.3);
+}
+ul.items li p{
+  padding:2px;
+}
+ul.items li div.imgs{
+  overflow:hidden;
+  position:relative;
+}
+ul.items li div.imgs p.off{
+  position:absolute;
+  z-index:1;
+  top:0;
+  background-color:#C23C2A;
+  box-shadow:5px 5px 10px #000;
+}
+ul.items li div.imgs p.iname{
+  position:absolute;
+  z-index:1;
+  bottom:0;
+  width:100%;
+  background-color:rgba(0,0,0,0.5);
+}
+ul.items li p.price{
+  background-color: #0b0b0b;
+  color:#ccb611;
+}
+ul.items li:hover{
+  border:1px solid #913232;
+  box-shadow:5px 5px 10px #000;
+}
+
+div.text>div>p{
+  line-height:100px;
+}
+div.toTop{
+  width:40px;
+  height:40px;
+  text-align:center;
+  font:16px bolder;
+  background-color:#913232;
+  position:fixed;
+  bottom:100px;
+  left:50%;
+  margin-left:550px;
+  color:#111;
+  line-height:40px;
+  border-radius:5px;
+  opacity:0;
+  cursor:pointer;
+}
+div.toTop:hover{
+  background-color:#C23C2A;
+}
+
+
+
+/* next */
+section.acount{
+  margin-top:50px;
+}
+section.acount div.container article{
+  width:69%;
+  margin-right:10px;
+}
+section.acount div.contianer aside{
+  width:30%;
+}
+section.acount div.container div.acount-title{
+  background-color:#2b2b2b;
+  line-height:40px;
+}
+section.acount div.container div.acount-title a{
+  line-height:40px;
+  background-image:url("../image/icon/page_nav_bg.png");
+  padding:0 29px;
+  margin-right:10px;
+}
+div.container article div.block{
+  background-color:#111;
+  padding:10px;
+}
+div.container article div.record{
+  padding:0;
+  background-color:#2b2b2b;
+}
+/* 
+*/
+div.block div.nav-list ul>li{
+  float:left;
+  padding:20px 15px;
+}
+div.block ul>li a img{
+  height:14px;
+}
+div.block ul li a.refresh{
+  transition:transform 1s linear;  
+}
+div.block ul li a.refresh:hover{
+  color:#913232;
+}
+div.block ul li a.refresh:hover img{
+  transform:rotate(180deg);
+}
+div.match-game a{
+  display:inline-block;
+  background:10px center  no-repeat ;
+  line-height:40px;
+  padding:0 10px 0 35px; 
+  filter:grayscale(80%);
+  color:#8b8b8b;
+}
+div.match-game a.active,div.match-game a:hover{
+  filter:grayscale(0);
+  color:#fff;
+}
+div.match-game a.active{
+  background-color:#1b1b1b;
+}
+div.match-game a.dota{
+  background-size:20px;
+  background-image:url("../image/icon/item_game_dota2.png");
+}
+div.match-game a.csgo{
+  background-size:30px;
+  background-image:url("../image/icon/desc_icon_csgo.png");
+}
+div.match-game+div{
+  padding:10px;
+}
+div.block div#stock{
+  background-color:#1b1b1b;
+  min-height:100px;
+  padding:10px 0 10px 10px;
+  display:flex;
+  flex-wrap:wrap;
+}
+aside div.personal ul.person-info li:first-child{
+  position: relative;
+  text-align: center;
+  line-height:50px;
+  font-size:16px;
+}
+aside div.personal div.person-bg{
+  height:80px;
+  background:center center no-repeat;
+  background-image:url("../image/dun.jpg");
+  background-size:cover;
+}
+aside div.personal ul.person-info li{
+  line-height:40px;
+  background-color:#111;
+  padding:0 10px;
+  font-size:12px;
+}
+aside div.personal ul.person-info li:first-child img{
+  width:60px;
+  height:60px;
+  position: absolute;
+  left:20px;
+  top:-30px;
+  border-radius:50%;
+  border:3px solid #5b5b5b;
+}
+aside div.personal ul.person-info li:not(:first-child) span:first-child{
+  display:inline-block;
+  width:30%;
+  color:#8b8b8b;
+}
+aside div.personal ul.person-info li:nth-child(even){
+  background-color:#1b1b1b;
+}
+aside ul.menu{
+  margin:10px 0;
+}
+aside ul.menu li{
+  padding:0 40px;
+  line-height:50px;
+  background-color:#111;
+  color:#8b8b8b;
+}
+aside ul.menu li:not(:first-child){
+  border-top:1px solid #1b1b1b;
+}
+aside ul.menu li:hover{
+  color:#fff;
+}
+aside ul.menu li.active{
+  color:#fff;
+  background-color:#913232;
+  border-left:2px solid #C23C2A;
+}
+div#stock>div{
+  position:relative;
+  width:18%;
+  text-align:center;
+  margin:10px 13px 0 0;
+}
+div#stock>div div.item-brief span{
+  position:absolute;
+  background-color:#0b0b0b;
+  top:5px;
+  color:#ccb611;
+  z-index:1;
+}
+div#stock>div div.item-brief p{
+  position:absolute;
+  bottom:0;
+  width:100%;
+  background-color:rgba(10,10,10,0.5);
+}
+div#stock>div div.item-brief img{
+  width:100%;
+}
+/* 点击选中样式 */
+div#stock div.choose div.item-brief>div{
+  position:absolute;
+  color:#32b846;
+  font-size:24px;
+  text-align:right;
+  width:100%;
+  height:100%;
+  top:0;
+  background:rgba(10,10,10,0.5);
+  display:block;
+}
+div#stock>div div.item-detail{
+  position:absolute;
+  width:180%;
+  left:100%;
+  top:-160%;
+  text-align:left;
+  background-color:#2b2b2b;
+  border:1px solid #0b0b0b;
+  font-size:16px;
+  display:none;
+  z-index:10;
+  cursor:pointer;
+  box-shadow:5px 5px 10px #000;
+} 
+/* 显示物品详情 */
+div#stock>div:hover div.item-detail{
+  display:block;
+  margin-left:10px;
+}
+div#stock>div div.item-detail p.item-lg{
+  padding:10px;
+}
+div#stock>div div.item-detail p.item-lg img{
+  width:100%;
+}
+div#stock>div div.item-detail div.item-info{
+  /* 以下两种颜色为动态变化 */
+  border-top:5px solid #ade55c;
+  background-color:rgba(173,229,92,0.3);
+  padding:10px;
+}
+div#stock>div div.item-detail div.item-info img{
+  width:30%;
+}
+div#stock>div div.item-detail div.item-info span{
+  margin-left:10px;
+}
+div#stock>div div.item-detail div.item-info p{
+  font-size:12px;
+  margin-top:5px;
+}
+div#record{
+  padding:10px;
+  background-color:#1b1b1b;
+  cursor:crosshair;
+}
+div#record>ul>li:nth-child(even){
+  background-color:#111;
+}
+div#record>ul>li>ul{
+  display:flex;
+  justify-content:space-between;
+  text-align:left;
+}
+div#record>ul>li>ul>li{
+  float:left;
+  line-height:20px;
+  padding:10px;
+}
+
+footer{
+  width:100%;
+  /* position:absolute; */
+  bottom:0;
+  background:linear-gradient(to bottom,#2b2b2b,#0b0b0b);
+  margin-top:42px;
+}
+footer div a img{
+    opacity:0.5;
+}
+footer div a img:hover{
+    opacity:0.7;
+}
+img.login_icon{
+    height:16px;
+    padding:20px 10px;
+}

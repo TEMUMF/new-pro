@@ -1,0 +1,173 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,nav,a,input,button{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+ul{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+    color:#fff;
+}
+input,button{
+    border:0;
+    outline:0;
+    display:block;
+}
+body{
+    width:100%;
+    font:12px Arial,"Microsoft YaHei";
+    color:#ddd;
+    min-width:1024px;
+    background:#212121;
+}
+.clearM:before{
+    content:"";
+    display:table;
+}
+.clearF:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.d-block{
+    display:block;
+}
+.d-inline-block{
+    display:inline-block;
+}
+.d-none{
+    display:none;
+}
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+.w-100{
+    width:100%;
+}
+/* arrow */
+.arrow{
+    display:inline-block;
+    border:10px solid transparent;
+    border-top-color:#fff;
+    position:relative;
+    transition:transform 500ms linear;
+}
+.arrow b{
+    display:inline-block;
+    border:10px solid transparent;
+    border-top-color:#212121;
+    position:absolute;
+    bottom:-6px;
+    right:-10px;
+}
+img{
+    vertical-align:middle;
+}
+/* 第二导航栏 */
+div.secondbar{
+    background:rgb(10,10,10);
+    height:40px;
+    line-height: 40px;
+}
+div.secondbar div a{
+    padding:14px 40px;
+    color:#aaa;
+}
+div.secondbar div a:hover{
+    background:#1a1a1a;
+    color:#fff;
+}
+div.secondbar div a.active{
+    color:#fff;
+    background:#212121;
+}
+section,div.secondbar div{
+    margin:0 auto;
+    max-width:1098px;
+}
+/* 标题栏 */
+div.title{
+    font-size:14px;
+    margin:25px 0;
+    padding:6px;
+    background-image:linear-gradient(to right,#000,rgba(0,0,0,0));
+}
+div.title img{
+    height:14px; 
+    position:relative;
+    bottom:1px;
+    transition:transform 500ms linear; 
+}
+div.title a:hover img{
+    transform-origin: center center;
+    transform:rotate(90deg);
+}
+/* 置顶to-top */
+div.to-top a{
+    margin-top:100px;
+    text-align:center;
+    display:block;
+    height:23px;
+    background:rgb(15,15,15);
+}
+div.to-top a b.arrow{
+    margin-top:-4px;
+    transform:rotate(180deg);
+}
+/* 隐藏 */
+.text-info{
+    display:none;
+}
+/* 表格展示 */
+table.tab-list{
+    width:95%;
+    margin:40px 20px;
+    border-collapse:collapse;
+  }
+  table.tab-list tr{
+    line-height:40px;
+    font-size:14px;
+  }
+  table.tab-list thead th{
+    background:#000;
+  }
+  .tab-list td img{
+    border-radius:50%;
+    height:30px;
+    margin-right:5px;
+    border:1px solid #ccc;
+  }
+  .tab-list td:not(:nth-child(2)){
+    text-align:center;
+  }
+  .tab-list tbody tr:nth-child(odd)>td{
+    background-color:rgba(24,24,24,0.8);
+  }
+  .tab-list tbody tr:nth-child(even)>td{
+    background-color:rgb(18,18,18);
+  }
+
+  /* 铭刻 */
+  .inscription{
+    color:#cf6a32;
+  }
+  .arcana{
+      color:#ade55c;
+  }
+  .immortal{
+      color:#e4ae39;
+  }
+  .mythical{
+      color:#8847ff;
+  }
+  .legendary{
+      color:#d32ce6;
+  }
+  .gold{
+      color:#ccb611;
+  }

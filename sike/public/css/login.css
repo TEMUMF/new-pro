@@ -1,0 +1,122 @@
+body{
+    background:url("../image/shadow.jpg") #000;
+    background-size:cover;
+    height:1000px;
+}
+header{
+    background:rgba(0,0,0,0.3);
+    height:50px;
+    width:100%;
+    position:fixed;
+    top:0px;
+}
+header img{
+    height:30px;
+    margin:10px 50px 0;
+}
+section{
+    background:rgba(25,25,25,0.6);
+    width:380px;
+    margin:200px auto;
+    text-align:center;
+    position:fixed;
+    top:5%;
+    left:40%;
+}
+section div.top-box{
+    display:flex;
+    justify-content: space-between;
+}
+section div.top-box p{
+    width:188px;
+    text-align:center;
+    font-size:15px;
+    padding:10px;
+    border-bottom:1px solid rgb(50,50,50);
+    cursor: pointer;
+}
+section div.top-box p:hover,div.top-box p.active{
+    border-bottom:1px solid #fff;
+}
+section>div>img{
+    width:120px;
+}
+section input,section button{
+    width:300px;
+    height:38px;
+    margin:20px auto;
+    border-radius:3px;
+}
+div.information{
+    padding:30px 40px 50px;
+}
+div.information>p{
+    margin:10px auto 20px;
+}
+.hide{
+    display:none;
+}
+.txt_info{
+    visibility:hidden;
+}
+input+p{
+    height:20px;
+    margin:2px;
+    line-height:20px;
+    text-align:left;
+    display:block;
+}
+/* 验证 */
+.vali_success,.vali_fail{
+    background-repeat: no-repeat;
+    background-position:left center;
+    background-size:contain;
+    padding-left:20px;
+}
+.vali_success{
+    background-image:url("../image/icon/right.png");
+    width:0px;
+    overflow:hidden;
+}
+.vali_fail{
+    background-image:url("../image/icon/icon-wrong.png");
+    color:red;
+}
+
+div.information input{
+    width:280px;
+    padding:0 10px;
+    margin:1px auto;
+}
+div.information button{
+    background:rgba(90,225,125,0.8);
+    color:#fff;
+}
+div.information button:hover{
+    background:rgba(90,225,125,0.9);
+}
+div.information a.back{
+    margin:20px;
+    display:block;
+    color:rgb(157,157,157);
+}
+img.login_icon{
+    height:16px;
+    padding:0px 10px;
+}
+footer div a img{
+    opacity:0.5;
+}
+footer div a img:hover{
+    opacity:0.7;
+}
+footer div{
+    position:fixed;
+    bottom:20px;
+}
+div.foot_left{
+    left:20px;
+}
+div.foot_right{
+    right:20px;
+}

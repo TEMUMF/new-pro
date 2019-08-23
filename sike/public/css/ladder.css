@@ -1,0 +1,15 @@
+div.explain{
+  margin:20px 150px;
+}
+div.explain p{
+  line-height:20px;
+  letter-spacing:1px;
+}
+div.explain p:first-child,div.explain p:last-child{
+  color:#fff;
+  margin-top:20px;
+  font:14px bolder;
+}
+p img.icon{
+  height:14px;
+}

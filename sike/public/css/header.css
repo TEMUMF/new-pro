@@ -1,0 +1,184 @@
+header{
+    height:50px;
+    background-color:#1a1a1a;
+    min-width:1234px;
+}
+header a.logo{
+    margin:0 20px 0 10%;
+    display:block;
+    float:left;
+    padding-top:10px;
+}
+header a.logo img{
+    height:30px;
+}
+header nav ul li{
+    float:left;
+}
+header nav ul li a{
+    display:block;
+    font-size:14px;
+    line-height:50px;
+    padding:0 20px;
+    margin:0 5px;
+    color:rgba(255,255,255,0.5);
+}
+li.select div.sel-box a{
+    display:none;
+    background:rgba(33,33,33,1);
+}
+li.select:hover div.sel-box a{
+    display:block;
+}
+header nav ul li:not(:last-child) a:hover,nav ul li a.active{
+    background:linear-gradient(to bottom,#333,#444);
+    color:rgba(255,255,255,1);
+}
+header nav ul li:last-child a{
+    background:#d09a2a;
+    color:#fff;
+}
+header>div{
+    float:right;
+    margin-right:10%;   
+}
+header div div.header-right p{
+    width:40px;
+    height:40px;
+    overflow:hidden;
+    border:2px solid #913232;
+    border-radius:50%;
+    display:inline-block;
+    margin-bottom:3px;
+    background-image:url(../image/paishou.jpg);
+    background-size:cover;
+}
+header div div.header-right div{
+    display:inline-block;
+    width:50px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    line-height:50px;
+}
+div.header-right img{
+    height:16px;
+    transition:transform 0.5s linear;
+}
+div.disvisible{
+    display:none;
+}
+div.disvisible div{
+    margin-top:20px;
+    padding:8px 0;
+    background:#1a1a1a;
+}
+div.disvisible a{
+    display:block;
+    color:#aaa;
+    padding:8px 40px;
+    border-radius:5px;
+    background-size:12%;
+    background-repeat:no-repeat;
+    background-position:20px 10px;
+}
+a#data{
+    background-image:url(../image/icon/piechart.png);
+    background-size:10%;
+}
+a#jingcai{
+    background-image:url(../image/icon/header.png);
+}
+a#setting{
+    background-image:url(../image/icon/setting.png);
+}
+a#quit{
+    background-image:url(../image/icon/power.png);
+}
+div.disvisible a:hover{
+    background:#913232;
+    color:#fff;
+}
+div.disvisible a:hover{
+    background-size:12%;
+    background-repeat:no-repeat;
+    background-position:20px 10px;
+}
+a#data:hover{
+    background-image:url(../image/icon/piechart_1.png);
+    background-size:10%;
+}
+a#jingcai:hover{
+    background-image:url(../image/icon/header_1.png);
+}
+a#setting:hover{
+    background-image:url(../image/icon/setting_1.png);
+}
+a#quit:hover{
+    background-image:url(../image/icon/power_1.png);
+}
+div.select:hover div.disvisible{
+    display:block;
+    position:absolute;
+    z-index:999;
+}
+div.select:hover div.header-right img{
+    transform-origin: center center;
+    transform:rotate(180deg);
+}
+div.banner{
+    height:160px;
+    background:url(../image/back_header.jpg) ;
+}
+div.banner section{
+    margin:0 auto;
+    max-width:1098px;
+}
+div.detail{
+    padding:50px 0 0 10px;
+}
+h1{
+    font:28px normal;  
+    color:#fff;
+}
+div.detail p{
+    color:#999;
+    margin-top:2px;
+}
+div.QRcode div.fl img{
+    width:80px;
+    margin-right:10px;
+}
+div.QRcode{
+    margin-top:35px;
+    background:rgba(33,33,33,0.7);
+    padding:8px 8px 5px;
+    border-radius:5px;
+}
+div.QRcode div.fr p{
+    font-size:12px;
+    padding:2px;
+    text-align:center;
+}
+div.QRcode div.fr p img.icon{
+    width:14px;
+    margin-bottom:2px;
+}
+div.QRcode div.fr p:not(:first-child){
+    margin-top:8px;
+    background:#ccc;
+    border-radius:3px;
+    color:#444;
+}
+div.prize-pool{
+    margin-right:40px;
+    line-height:30px;
+}
+div.prize-pool span{
+    font-size:18px;
+    color:#FFD700;
+    margin-left:10px;
+}
+div.prize-pool span:last-child{
+    color:#2E8B57;
+}
